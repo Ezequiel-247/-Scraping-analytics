@@ -288,7 +288,7 @@ Ejemplo de respuesta:
 
 ```json
 {
-  "totalProducts": 172,
+  "totalProducts": 100,
   "overallAveragePrice": 123.45,
   "avgPriceByBrand": [
     {
@@ -300,10 +300,10 @@ Ejemplo de respuesta:
     }
   ],
   "availability": {
-    "available": 144,
-    "unavailable": 28,
-    "availablePercent": 83.72,
-    "unavailablePercent": 16.28
+    "available": 80,
+    "unavailable": 20,
+    "availablePercent": 80,
+    "unavailablePercent": 20
   },
   "topExpensive": [
     { "name": "Producto ejemplo caro", "brand": "MARCA_EJEMPLO", "price": 999, "url": "..." }
