@@ -1,12 +1,12 @@
-# Backend del dashboard de productos El Dorado
+# Backend del dashboard de productos
 
-Este backend expone una API REST para consultar productos scrapeados de El Dorado y calcular estadísticas útiles para un dashboard analítico.
+Este backend expone una API REST para consultar productos scrapeados y calcular estadísticas útiles para un dashboard analítico.
 
 ## Objetivo
 
 El proyecto tiene dos capas bien diferenciadas:
 
-1. Scraping de productos desde El Dorado
+1. Scraping de productos desde una fuente configurada de forma privada
 2. Exposición de esos datos a través de una API para analizar precios, disponibilidad y marcas
 
 La idea es transformar información no estructurada del sitio web en datos reutilizables para su visualización en un frontend o para análisis posteriores.
@@ -254,7 +254,7 @@ Respuesta de ejemplo:
 ```json
 {
   "ok": true,
-  "message": "El Dorado backend is running",
+  "message": "Products analytics backend is running",
   "timestamp": "2026-09-12T00:00:00.000Z"
 }
 ```

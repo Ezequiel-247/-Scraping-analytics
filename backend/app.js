@@ -57,7 +57,7 @@ app.use(
 app.get('/api/health', (req, res) => {
   res.json({
     ok: true,
-    message: 'El Dorado backend is running',
+    message: 'Products analytics backend is running',
     timestamp: new Date().toISOString(),
   });
 });

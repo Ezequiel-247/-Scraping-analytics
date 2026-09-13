@@ -64,7 +64,7 @@ function createOpenApiSpec(port) {
           type: 'object',
           properties: {
             ok: { type: 'boolean', example: true },
-            message: { type: 'string', example: 'El Dorado backend is running' },
+            message: { type: 'string', example: 'Products analytics backend is running' },
             timestamp: { type: 'string', format: 'date-time' },
           },
         },

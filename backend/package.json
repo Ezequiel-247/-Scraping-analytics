@@ -1,7 +1,7 @@
 {
-  "name": "el-dorado-backend",
+  "name": "products-analytics-backend",
   "version": "1.0.0",
-  "description": "Backend API para el dashboard de productos de El Dorado",
+  "description": "Backend API para un dashboard analítico de productos",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
