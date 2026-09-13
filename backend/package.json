@@ -1,0 +1,21 @@
+{
+  "name": "el-dorado-backend",
+  "version": "1.0.0",
+  "description": "Backend API para el dashboard de productos de El Dorado",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "seed": "node seeders/importProducts.js",
+    "test": "node test/integrationTest.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

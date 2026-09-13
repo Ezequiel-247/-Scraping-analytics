@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #dfe7e3;
+  background: #090d16;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+.grid-noise {
+  background-image: linear-gradient(rgba(78, 222, 163, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(78, 222, 163, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.product-table { display: none; }
+.product-cards { display: block; }
+
+@media (min-width: 768px) {
+  .product-table { display: block; }
+  .product-cards { display: none; }
+}
