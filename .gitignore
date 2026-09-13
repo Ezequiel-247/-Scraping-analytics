@@ -14,6 +14,7 @@ node_modules/
 *.sqlite3
 
 # Generated scraper outputs
+productos-*.json
 scraper/productos-*.json
 backend/data/productos-*.json
 
