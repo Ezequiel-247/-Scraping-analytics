@@ -7,6 +7,7 @@
     "start": "node app.js",
     "dev": "node --watch app.js",
     "seed": "node seeders/importProducts.js",
+    "start:render": "npm run seed && npm start",
     "test": "node test/integrationTest.js"
   },
   "dependencies": {
