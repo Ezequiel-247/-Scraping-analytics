@@ -177,7 +177,7 @@ Permite filtros por query params como:
 Ejemplo:
 
 ```http
-GET /api/products?brand=ADES&available=true&limit=5
+GET /api/products?brand=MARCA_EJEMPLO&available=true&limit=5
 ```
 
 La consulta se arma dinámicamente con SQL y se ejecuta contra SQLite.
@@ -275,7 +275,7 @@ Filtros soportados:
 Ejemplo:
 
 ```http
-GET /api/products?brand=ADES&available=true&limit=5
+GET /api/products?brand=MARCA_EJEMPLO&available=true&limit=5
 ```
 
 ---
@@ -289,14 +289,14 @@ Ejemplo de respuesta:
 ```json
 {
   "totalProducts": 172,
-  "overallAveragePrice": 97.58,
+  "overallAveragePrice": 123.45,
   "avgPriceByBrand": [
     {
-      "brand": "ADES",
-      "averagePrice": 325.2,
-      "pricedCount": 9,
-      "totalCount": 10,
-      "count": 10
+      "brand": "MARCA_EJEMPLO",
+      "averagePrice": 150.75,
+      "pricedCount": 4,
+      "totalCount": 5,
+      "count": 5
     }
   ],
   "availability": {
@@ -306,10 +306,10 @@ Ejemplo de respuesta:
     "unavailablePercent": 16.28
   },
   "topExpensive": [
-    { "name": "Producto A", "brand": "ADES", "price": 999, "url": "..." }
+    { "name": "Producto ejemplo caro", "brand": "MARCA_EJEMPLO", "price": 999, "url": "..." }
   ],
   "topCheapest": [
-    { "name": "Producto B", "brand": "ADES", "price": 89, "url": "..." }
+    { "name": "Producto ejemplo económico", "brand": "MARCA_EJEMPLO", "price": 89, "url": "..." }
   ],
   "generatedAt": "2026-09-12T00:00:00.000Z"
 }
